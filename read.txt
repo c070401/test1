@@ -4,3 +4,8 @@ git config --global user.email "caoyuswpu@163.com"
 
 ssh-keygen -t ed25519 -C "caoyuswpu@163.com"
 # 按回车默认保存路径，无需设置密码
+
+cd F:\python\gittest1
+git init
+
+git remote add origin git@github.com:c070401/test1.git
