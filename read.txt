@@ -1,0 +1,6 @@
+# 配置用户名和邮箱（与 GitHub 一致）
+git config --global user.name "c070401"
+git config --global user.email "caoyuswpu@163.com"
+
+ssh-keygen -t ed25519 -C "caoyuswpu@163.com"
+# 按回车默认保存路径，无需设置密码
